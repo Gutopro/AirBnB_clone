@@ -55,4 +55,5 @@ $
 - How to handle named arguments in a function
 ### Contributors
 This is a collaboration project between Toluwani Ajibare and Nicholas Igber who are both students in the ALX Africa software engineering program.
-
+1. ToluwaniAJ [Gmail] (mailto:toluwaniajibare@gmail.com)
+2. Gutopro [Gmail] (mailto:nickigber@gmail.com)
