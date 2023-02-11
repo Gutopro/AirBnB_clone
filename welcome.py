@@ -1,5 +1,13 @@
 #!/usr/bin/python3
+def welcome_message():
+    """Prints a welcome message to the console.
 
-""" code that passes the pycodestyle"""
-a = "welcome to our AirBnB clone"
-print(a)
+    Returns:
+        None
+    """
+    message = "Welcome to our Airbnb clone!"
+    print(message)
+
+if __name__ == "__main__":
+    """Executes the welcome_message function."""
+    welcome_message()
