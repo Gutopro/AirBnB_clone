@@ -1,15 +1,23 @@
 #!/usr/bin/python3
-'''
-    Implementation of the Review class
-'''
-
+"""Entry point for Review"""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    '''
-        Implementation for the Review.
-    '''
+    """Basic class for user reviews of places.
+    Args:
+        *args: Variable length argument list.
+        **kwargs: Arbitrary keyword arguments.
+    Attributes:
+        place_id (str): empty string: later it will be Place.id.
+        user_id (str): empty string: later it will be User.id.
+        text (str): empty string: later will be content of review.
+    Todo:
+        * Update FileStorage to manage correctly
+        serialization and deserialization of Review.
+        * Update your command interpreter (console.py)
+        to allow show, create, destroy, update and all used with User.
+    """
     place_id = ""
     user_id = ""
     text = ""
